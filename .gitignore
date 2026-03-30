@@ -6,3 +6,9 @@
 /new/
 /node_modules/
 /testml/
+/_site/
+/.jekyll-cache/
+/Gemfile.lock
+/.bundle/
+/vendor/
+/public/

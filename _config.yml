@@ -1,0 +1,26 @@
+# Jekyll Configuration for YAML Test Suite
+title: YAML Test Suite
+description: Comprehensive Test Suite for YAML
+url: https://yaml-test-suite.vercel.app
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Makefile
+  - .git
+  - .gitignore
+  - bin
+  - src
+  - analytics.js
+  - build-analytics.js
+  - License
+  - ReadMe.md
+
+# Include custom directories
+include:
+  - _includes
+  - _layouts

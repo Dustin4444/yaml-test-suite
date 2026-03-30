@@ -1,0 +1,23 @@
+{
+  "name": "yaml-test-suite",
+  "version": "1.0.0",
+  "description": "Comprehensive Test Suite for YAML",
+  "private": true,
+  "scripts": {
+    "build": "node build-analytics.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dustin4444/yaml-test-suite.git"
+  },
+  "keywords": [
+    "yaml",
+    "test",
+    "suite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1"
+  }
+}
